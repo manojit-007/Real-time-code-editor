@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header title="Code-Editor">Real time code editor</header>
+    <main id="main">
+        <section class="left">
+            <div class="htmlSection">
+                <label for="htmlContainer" class="htmlLabel">HTML</label>
+                <textarea name="htmlContainer" id="html" ></textarea>
+            </div>
+            <div class="cssSection">
+                <label for="cssContainer" class="cssLabel">CSS</label>
+                <textarea name="cssContainer" id="css" ></textarea>
+            </div>
+            <div class="jsSection">
+                <label for="jsContainer" class="jsLabel">JAVASCRIPT</label>
+                <textarea name="jsContainer" id="js" ></textarea>
+            </div>
+        </section>
+        <section class="right">
+            <label class="output">Output</label>
+            <iframe src="" id="output"></iframe>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
